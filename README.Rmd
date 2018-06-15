@@ -50,6 +50,8 @@ User Guide of Atlassian: [link](https://confluence.atlassian.com/bitbucketserver
 
 ### Installation of a package
 
+After run the function, the pop-up windows will be generated. Please __enter your personal token__ of Bitbucket for connect the server.
+
 ```{r eval = FALSE}
 # Please don't import this package, because of confliction with original devtools
 # Just use NAMESPACE::function()
@@ -58,4 +60,5 @@ InstallBitBucketServer::install_bitbucket_server(
   repos = "repository_name", 
   host = "host_server_name"  # host is "https://hostserver.com/bitbucket"
 )
+# Enter your personal token in the pop-up windows
 ```

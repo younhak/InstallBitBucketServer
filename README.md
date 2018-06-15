@@ -32,10 +32,13 @@ User Guide of Atlassian:
     not be able to view this token again)*
 9.  Click \[Continue\]
 
-![Figure 2. Token
-Creation](man/figures/token.png)
+![Figure 2. Token Creation](man/figures/token.png)
 
 ### Installation of a package
+
+After run the function, the pop-up windows will be generated. Please
+**enter your personal token** of Bitbucket for connect the
+server.
 
 ``` r
 # Please don't import this package, because of confliction with original devtools
@@ -45,4 +48,5 @@ InstallBitBucketServer::install_bitbucket_server(
   repos = "repository_name", 
   host = "host_server_name"  # host is "https://hostserver.com/bitbucket"
 )
+# Enter your personal token in the pop-up windows
 ```
