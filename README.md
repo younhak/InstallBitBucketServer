@@ -47,7 +47,8 @@ server.
 InstallBitBucketServer::install_bitbucket_server(
   projects = "project_name", 
   repos = "repository_name", 
-  host = "host_server_name"  # host is "https://hostserver.com/bitbucket"
+  host = "host_server_name",  # host is "https://hostserver.com/bitbucket"
+  build_vignette = TRUE
 )
 # Enter your personal token in the pop-up windows
 ```
