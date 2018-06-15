@@ -25,7 +25,6 @@ You can install the customized version of `devtools` for `install_bitbucket_serv
 
 ``` r
 install.packages("devtools")
-devtools::install_github("r-lib/pkgbuild")
 devtools::install_github("younhak/InstallBitbucketServer")
 ```
 
@@ -45,7 +44,7 @@ User Guide of Atlassian: [link](https://confluence.atlassian.com/bitbucketserver
 8. __[IMPORTANT]__ Copy and Paste your token in safe place _(You will not be able to view this token again)_
 9. Click [Continue]
 
-<!-- ![Figure 1. Token Creation](/man/figures/token.png) -->
+![Figure 1. Token Creation](man/figures/token.png)
 
 ## Usage
 

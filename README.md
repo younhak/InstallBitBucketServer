@@ -9,7 +9,6 @@ You can install the customized version of `devtools` for
 
 ``` r
 install.packages("devtools")
-devtools::install_github("r-lib/pkgbuild")
 devtools::install_github("younhak/InstallBitbucketServer")
 ```
 
@@ -29,10 +28,10 @@ User Guide of Atlassian:
 7.  Click \[Create\] butten
 8.  **\[IMPORTANT\]** Copy and Paste your token in safe place *(You will
     not be able to view this token again)*
-9.  Click
-\[Continue\]
+9.  Click \[Continue\]
 
-<!-- ![Figure 1. Token Creation](/man/figures/token.png) -->
+![Figure 1. Token
+Creation](man/figures/token.png)
 
 ## Usage
 
