@@ -19,7 +19,9 @@ devtools::install_github("younhak/InstallBitbucketServer")
 ``` r
 # Please don't import this package, because of confliction with original devtools
 # Just use NAMESPACE::function()
-InstallBitBucketServer::install_bitbucket_server(projects = "project_name", 
-                                                 repos = "repository_name", 
-                                                 host = "host_server_name")  # host is "https://hostserver.com/bitbucket"
+InstallBitBucketServer::install_bitbucket_server(
+  projects = "project_name", 
+  repos = "repository_name", 
+  host = "host_server_name"  # host is "https://hostserver.com/bitbucket"
+)
 ```
