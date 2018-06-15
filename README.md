@@ -11,7 +11,8 @@ You can install the customized version of `devtools` for
 
 ``` r
 install.packages("devtools")
-devtools::install_github("younhak/InstallBitbucketServer")
+devtools::install_github("younhak/InstallBitbucketServer",
+                         build_vignettes = TRUE)
 ```
 
 ## Usage

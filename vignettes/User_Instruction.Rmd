@@ -22,9 +22,10 @@ It installs R Package in BitBucket Dev Server of Nielsen Data Science. It is bas
 
 You can install the customized version of `devtools` for `install_bitbucket_server()` from my personal GitHub with:
 
-``` r
+```{r, eval = FALSE}
 install.packages("devtools")
-devtools::install_github("younhak/InstallBitbucketServer")
+devtools::install_github("younhak/InstallBitbucketServer",
+                         build_vignettes = TRUE)
 ```
 
 ## Usage
@@ -48,7 +49,7 @@ User Guide of Atlassian: [link](https://confluence.atlassian.com/bitbucketserver
 ### Installation of a package
 After run the function, the pop-up windows will be generated. Please __enter your personal token__ of Bitbucket for connect the server.
 
-```{r eval = FALSE}
+```{r, eval = FALSE}
 # Please don't import this package, because of confliction with original devtools
 # Just use NAMESPACE::function()
 InstallBitBucketServer::install_bitbucket_server(
