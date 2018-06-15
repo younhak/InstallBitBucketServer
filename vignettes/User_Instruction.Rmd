@@ -23,6 +23,7 @@ It installs R Package in BitBucket Dev Server of Nielsen Data Science. It is bas
 You can install the customized version of `devtools` for `install_bitbucket_server()` from my personal GitHub with:
 
 ``` r
+install.packages("devtools")
 devtools::install_github("younhak/InstallBitbucketServer")
 ```
 
