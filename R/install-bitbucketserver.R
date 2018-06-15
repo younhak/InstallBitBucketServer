@@ -22,8 +22,11 @@
 #'
 #' @examples
 #' \dontrun{
-#' install_bitbucket_server(projects = "project_name",
-#' repos = "repository_name")
+#' install_bitbucket_server(
+#' projects = "project_name",
+#' repos = "repository_name",
+#' host = "host_server_name"
+#' )
 #' }
 install_bitbucket_server <- function(projects, repos,
                                      auth_token = rstudioapi::askForPassword("Enter your personal token:"),

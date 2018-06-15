@@ -31,8 +31,11 @@ This function is vectorised on repo so you can install multiple packages in a si
 }
 \examples{
 \dontrun{
-install_bitbucket_server(projects = "project_name",
-repos = "repository_name")
+install_bitbucket_server(
+projects = "project_name",
+repos = "repository_name",
+host = "host_server_name"
+)
 }
 }
 \seealso{
